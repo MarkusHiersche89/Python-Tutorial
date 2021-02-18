@@ -99,12 +99,14 @@ Hinzu kommt, das Python in der Regel immer nur Zeichenketten (Sting) ausgeben ka
 daher ist eine Konvertierung in einem String (kurz: str) notwendig.
 
 ```python
+# Variabe:
 name = "Max"
 alter = 23
+
+# Möglichkeit #1:
 print(name + " ist " + str(alter) + " Jahre alt.")
 
-# oder:
-
+# Möglichkeit #2:
 print(name, "ist", alter, "Jahre alt.")
 ```
 
