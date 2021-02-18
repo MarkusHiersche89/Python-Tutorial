@@ -47,13 +47,13 @@ Variable sind Platzhalter für bestimmte Werte.
 Egal ob es numerische oder Texte gespeichert werden sollen.
 Bsp.:
 
- Bezeichnung | Wert | dt. Bezeichnung | engl. Bezeichnung
- --- | --- | --- | --- 
- age | 23 | ganze Zahl | Integer 
- money | 1234.56 | Fließkommazahl | Float (Double)
- name | Max | Text (Buchstaben, Zahlen, Zeichen) | String
- sex | m | einzelnes Zeichen | Character
- win | true | Wahrheitswert | Boolean
+ Wert | dt. Bezeichnung | engl. Bezeichnung
+ --- | --- | --- 
+ 23 | ganze Zahl | Integer 
+ 1234.56 | Fließkommazahl | Float (Double)
+ “Max“ | Text (Buchstaben, Zahlen, Zeichen) | String
+ 'm' | einzelnes Zeichen | Character
+ true | Wahrheitswert | Boolean
  
 ```python
 name = "Max"
