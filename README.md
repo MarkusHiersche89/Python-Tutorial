@@ -1,4 +1,4 @@
-# Python-Tutorial
+# Pythone-Tutorial
 
 ---
 
@@ -7,9 +7,9 @@
 Diese INformationen sind primär für mich gedacht.<br/>
 Jedoch biete ich diese auch jeden anderen an. ;-)
 
----
+Diese Niederschrift soll mir in Zukunft helfen Twitch-Videos, Youtube-Tutorials und Blogbeiträge strukturiert zu erstellen.
 
-# Python 3.x
+---
 
 ## Warum Python?
 
@@ -54,6 +54,12 @@ Bsp.:
  name | Max | Text (Buchstaben, Zahlen, Zeichen) | String
  sex | m | einzelnes Zeichen | Character
  win | true | Wahrheitswert | Boolean
+ 
+```python
+name = "Max"
+alter = 23
+maennlich = true
+```
 
 Wichtig ist, dass Python keinen logische Grenzen von Werten kennt.
 In anderen Programmierstprachen hat z.B.: 
