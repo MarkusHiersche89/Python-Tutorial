@@ -102,6 +102,10 @@ daher ist eine Konvertierung in einem String (kurz: str) notwendig.
 name = "Max"
 alter = 23
 print(name + " ist " + str(alter) + " Jahre alt.")
+
+# oder:
+
+print(name, "ist", alter, "Jahre alt.")
 ```
 
 ### Eingabe
