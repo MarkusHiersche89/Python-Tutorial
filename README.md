@@ -4,7 +4,7 @@
 
 ##  Disclaimer
 
-Diese INformationen sind primär für mich gedacht.<br/>
+Diese Informationen sind primär für mich gedacht.<br/>
 Jedoch biete ich diese auch jeden anderen an. ;-)
 
 Diese Niederschrift soll mir in Zukunft helfen Twitch-Videos, Youtube-Tutorials und Blogbeiträge strukturiert zu erstellen.
@@ -45,7 +45,6 @@ von Python ignoriert
 
 Variable sind Platzhalter für bestimmte Werte.
 Egal ob es numerische oder Texte gespeichert werden sollen.
-Bsp.:
 
  Wert | dt. Bezeichnung | engl. Bezeichnung
  --- | --- | --- 
