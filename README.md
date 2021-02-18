@@ -138,7 +138,7 @@ Operator | Bedeutung
 --- | ---
 < | kleiner
 <= | kleiner (oder) gleich
-> | größer
+\> | größer
 \>= | größer (oder) gleich
 == | gleich
 != | ungleich
@@ -169,13 +169,13 @@ and | und
 or | oder
 not | nicht
 
-** and **
+**and**
 Das "and" sagt aus, dass beide Überprüfungen korrekt sein müssen, damit der nachfolgende Code ausgeführt wird.
 
-** or **
+**or**
 Bein "or" muss mindestens eine überprüfung korrekt sein.
 
-** not **
+**not**
 ****************
 ****************
 ****************
@@ -206,7 +206,7 @@ else:
 
 Wenn ein Durchlauf mehrmals wiederholt werden soll, sollte stehts eine Schleife verwendet werden.
 
-** while **
+**while**
 
 Eine While-Schleife wird solange durchgeführt bis sie unterbrochen wird.
 Beispielsweise wenn man einen Text Zeile für Zeile einlesen will und nicht weis wie viele Zielen dieser lang ist. Hier wird am Ende von der Datei die Schleife abgebrochen.
@@ -239,7 +239,7 @@ while eingabe != 0:
     print("Ungueltige EIngabe gemacht")
 ```
 
-** for **
+**for**
 
 Die For-Schleife wird auch Zählschleife genannt. Da hier immer ein Zähler (direkt oder indirekt) zum Einsatz kommt.
 
@@ -253,7 +253,7 @@ for i in range(0, 11):
   print(str(i) + " x " + str(eingabe) + " = " + str(i * eingabe))
 ```
 
-** verschachtelte for-Schleifen **
+**verschachtelte for-Schleifen**
 
 Verschachtelte For-Schleifen kommen relativ häufig vor, daher sind diese sehr wichtig zu können.
 Verschachtelte For-Schleifen werden verwendet wenn mehrere Dimensionen dargestellt werden müssen. Anwendungen finden sich in Schach (8x8 Felder), in Tabellen (Zeilen udn Spalten) oder auch in Simulatoren (3 Dimensonen bei Flugzeugen, Länge, Breite, Höhe) und vielen mehr.
