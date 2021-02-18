@@ -132,6 +132,8 @@ print("Ihr Alter: " + str(age))
 print("Ihre Kontostand: ", end="")
 money = float(input())
 print("Ihr Kontostand: " + str(money))
+# oder:
+print("Ihr Kontostand: ", money)
 ```
 
 ### Verzweigung
