@@ -1,4 +1,4 @@
-# Pythone-Tutorial
+# Python-Tutorial
 
 ---
 
@@ -16,12 +16,13 @@ Diese Niederschrift soll mir in Zukunft helfen Twitch-Videos, Youtube-Tutorials 
 ### Vorteile
 
 - Plattformunabhängig
-- Universel einsetzbar
+- Universell einsetzbar
 - viele Bibliotheken
+- OpenSource (Quelloffen)
 
 ### Nachteile
 
-- nicht ähnlich anderen Sprachen
+- stark unterschiedlicher Syntax zu anderen Sprachen
 - Geschwindigkeit
 
 ## Grundlagen
@@ -183,9 +184,22 @@ Das "and" sagt aus, dass beide Überprüfungen korrekt sein müssen, damit der n
 Bein "or" muss mindestens eine überprüfung korrekt sein.
 
 **not**
-****************
-****************
-****************
+Bei "not" wird die Abfrage negiert.
+```python
+name = "Max"
+
+# Ist Name gleich "Susi":
+if name == "Susi":
+  print("Name ist Susi")
+
+# Ist Name ungleich "Susi":
+if name != "Susi:
+  print("Name ist nicht Susi")
+
+# Ist nicht Name gleich "Susi":
+if not(name == "Susi"):
+  print("Name ist nicht Susi")
+```
 
 ```python
 # Variable
